@@ -67,3 +67,16 @@ body {
       line-height: 24px;
     }
   }
+
+  .location{
+    display: inline;
+    font-size: 12px;
+  }
+
+  .about {
+    font-size: 28px
+  }
+  
+  .scrollable_to {
+    scroll-margin-top: 50px;
+  }
