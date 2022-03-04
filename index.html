@@ -63,13 +63,30 @@
   <!-- About Me Starts -->
 
     <div id="about_me" class="container px-4 py-5 scrollable_to">
-      <h2 class="pb-2 border-bottom">About Me</h2>
+      <!-- 
       <p class="about mt-3">I am a computer science student at Jacobs University Bremen, currently in my second year.<br>
         I like creating software in general and back-end application specifically.<br>
         I play guitar in my free time and enjoy watching Movies and TV series.<br>
         feel free to reach out to me on all my social media accounts.
-      </p>
+      </p> -->
+      <h2 class="pb-2 border-bottom mb-5">About Me</h2>
+      <div class="card mb-3" style="max-width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex flex-wrap align-items-center">
+            <img src="prof_new.jpg" class="img-fluid rounded-start w-100" alt="My Photo">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body about">
+              <p class="card-text">I am a computer science student at Jacobs University Bremen, currently in my second year.<br>
+                I like creating software in general and back-end application specifically.<br>
+                I play guitar in my free time and enjoy watching Movies and TV series.<br>
+                feel free to reach out to me on all my social media accounts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    
 
   <!-- About Me Ends -->
 
@@ -105,7 +122,7 @@
   <div id="projects" class="container px-4 py-5 title scrollable_to">
     <h2 class="pb-2 border-bottom">Projects</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-md-3 ">
-      <div class="feature col"><a href="#">
+      <div class="feature col"><a href="" data-bs-toggle="modal" data-bs-target="#project1Modal">
           <h2>First Project Title</h2>
         </a>
         <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
@@ -125,7 +142,43 @@
       </div>
     </div>
   </div>
-  <!-- Projects Snds -->
+
+  <!-- Modals Start -->
+  <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project1ModalLabel">Project 1</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-0">
+          <div class="col-md-4 d-flex flex-wrap align-items-center">
+            <img src="prof_new.jpg" class="img-fluid rounded-start w-100" alt="My Photo">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body about">
+              <p class="card-text">This is a university project for the course 'Databases and Web Services'.<br>
+                this is an IMDB clone that features movies and tv series as well as actors and crew in a card style that you can search and click to go to a specific page where you can get information about it.<br>
+                Technologies used :<br>
+                <ul>
+                  <li>HTML, CSS(Bootstrap) for front-end.</li>
+                  <li>PHP for back-end; Querying, sessions, permissions.</li>
+                  <li>AJAX for search auto-completion.</li>
+                  <li>SQL database</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modals End -->
+  <!-- Projects Ends -->
   <div class="divider"></div>
 
   <script src="script.js"></script>

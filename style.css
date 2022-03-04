@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
 }
 
 #navbarNav {
@@ -70,13 +71,17 @@ body {
 
   .location{
     display: inline;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .about {
-    font-size: 28px
+    font-size: 32px
   }
   
   .scrollable_to {
     scroll-margin-top: 50px;
+  }
+
+  .prof_pic {
+    text-align: center;
   }
