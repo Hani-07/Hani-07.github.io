@@ -1,2 +1,2 @@
-# This is my software engineering portfolio
+# This is my personal portfolio
 Please Check This Website at https://hanialnahas.github.io/
