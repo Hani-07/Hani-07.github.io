@@ -1,2 +1,2 @@
 # This is my personal portfolio
-Please Check This Website at https://hanialnahas.github.io/
+You can check this website at https://hanialnahas.github.io/
