@@ -10,13 +10,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Hani Alnahas</title>
 </head>
 
-<body data-bs-spy="scroll" tabindex="0">
+<body data-bs-spy="scroll" tabindex="0" class="bg-dark text-light">
   <!-- Navbar Starts -->
-  <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light h2">
+  <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark h2">
     <div class="container-fluid">
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -35,7 +36,7 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Me</a>
+            <a class="nav-link" href="#contact">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -48,32 +49,25 @@
     <div class="container">
       <h1>Hani Alnahas</h1>
       <p>B.Sc. Computer Science, Jacobs University bremen</p>
-      <div class="social-links">
-        <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/hanialnahas" target="_blank"><i class="fa fa-linkedin orange"></i></a>
+        <a href="https://www.github.com/hanialnahas" target="_blank"><i class="fa fa-github orange"></i></a>
+        <a href="https://www.facebook.com/Hani.Nahas2000" target="_blank"><i class="fa fa-facebook-f orange"></i></a>
+        <a href="https://www.instagram.com/nahas_hani/" target="_blank"><i class="fa fa-instagram orange"></i></a>
       </div>
     </div>
     </section>
     
   <!-- Hero Ends -->
-
+  <div class="divider"></div>
   <!-- About Me Starts -->
 
     <div id="about_me" class="container px-4 py-5 scrollable_to">
-      <!-- 
-      <p class="about mt-3">I am a computer science student at Jacobs University Bremen, currently in my second year.<br>
-        I like creating software in general and back-end application specifically.<br>
-        I play guitar in my free time and enjoy watching Movies and TV series.<br>
-        feel free to reach out to me on all my social media accounts.
-      </p> -->
       <h2 class="pb-2 border-bottom mb-5">About Me</h2>
-      <div class="card mb-3" style="max-width: 100%;">
+      <div class="card mb-3 bg-secondary" style="max-width: 100%;">
         <div class="row g-0">
           <div class="col-md-4 d-flex flex-wrap align-items-center">
-            <img src="img/prof_new.jpg" class="img-fluid rounded-start w-100" alt="My Photo">
+            <img src="img/prof_test.png" class="img-fluid rounded-start w-100" alt="My Photo">
           </div>
           <div class="col-md-8">
             <div class="card-body about">
@@ -89,12 +83,12 @@
     
 
   <!-- About Me Ends -->
-
+  <div class="divider"></div>
   <!-- Education Starts -->
 
   <div class="container px-4 py-5 title scrollable_to" id="education">
     <h2 class="pb-2 border-bottom">Education</h2>
-    <div class="card mt-5">
+    <div class="card mt-5 bg-secondary">
       <div class="card-header">
         B.Sc. Computer Science
       </div>
@@ -104,7 +98,7 @@
         <p class="card-text">- Major in Computer Science<br>- Minor in Robotics and Intelligent Systems</p>
         </div>
     </div>
-    <div class="card mt-5">
+    <div class="card mt-5 bg-secondary">
       <div class="card-header">
         Information Technology Engineering
       </div>
@@ -117,22 +111,22 @@
   </div>
 
   <!-- Education Ends -->
-
+  <div class="divider"></div>
   <!-- Projects Starts -->
   <div id="projects" class="container px-4 py-5 title scrollable_to">
     <h2 class="pb-2 border-bottom">Projects</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-md-3 ">
-      <div class="feature col"><a href="" data-bs-toggle="modal" data-bs-target="#project1Modal">
+      <div class="feature col text-warning"><a href="" data-bs-toggle="modal" data-bs-target="#project1Modal">
           <h2>UniReels</h2>
         </a>
         <p>An IMDB clone as a university project where you can get information about movies, tv series, actors, and studios.</p>
       </div>
-      <div class="feature col"><a href="#">
+      <div class="feature col text-warning"><a href="" data-bs-toggle="modal" data-bs-target="#project2Modal">
           <h2>Covid Numbers</h2>
         </a>
         <p>A telegram bot built in python that scrapes the web for the Covid-19 statistics and send you information based on your commands.</p>
       </div>
-      <div class="feature col"><a href="#">
+      <div class="feature col text-warning"><a href="" data-bs-toggle="modal" data-bs-target="#project3Modal">
           <h2>MicroBlog using Flask</h2>
         </a>
         <p>A microblog written with python and the Flask framework.</p>
@@ -143,7 +137,7 @@
   <!-- Modals Start -->
   <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
-      <div class="modal-content">
+      <div class="modal-content bg-dark">
         <div class="modal-header">
           <h5 class="modal-title" id="project1ModalLabel">UniReels</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -191,12 +185,37 @@
   </div>
   <!-- Modals End -->
   <!-- Projects Ends -->
+
   <div class="divider"></div>
+
+  <!-- Contact Starts -->
+
+  <div class="container px-4 py-5 title scrollable_to" id="contact">
+    <h2 class="pb-2 border-bottom">Contact Me:</h2>
+    <div class="container"><ul>
+      <li><i class="fa fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/hanialnahas" target="_blank">hanialnahas</a></li>
+      <li><i class="fa fa-github"></i> GitHub: <a href="https://www.github.com/hanialnahas" target="_blank">hanialnahas</a></li>
+      <li><i class="fa fa-facebook-f"></i> Facebook: <a href="https://www.facebook.com/Hani.Nahas2000" target="_blank">Hani Nahas</a></li>
+      <li><i class="fa fa-linkedin"></i> Instagram: <a href="https://www.instagram.com/nahas_hani/" target="_blank">nahas_hani</a></li>
+      <li><i class="fa fa-envelope"></i> Email: <a href="mailto:haninahas20@gmail.com">haninahas20@gmail.com</a></li>
+    </ul></div>
+  </div>
+
+  <!-- Contact Ends -->
+
+  <!-- Footer Starts -->
+  <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-muted">
+    <div class="container text-center">
+      <small>Copyright &copy; Hani Alnahas</small>
+    </div>
+  </footer>
+  <!-- Footer Ends -->
 
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1bbeb158dc.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
