@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Space+Mono:ital@1&family=Work+Sans:wght@600&display=swap');
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
@@ -21,7 +23,6 @@ body {
     background: url("img/bg-1.jpg") top right no-repeat;
     background-size: cover;
     position: relative;
-    font-family: 'Ubuntu', Times, serif;
   }
 @media (min-width: 992px) {
   #hero {
@@ -43,12 +44,13 @@ right: 0;
   font-weight: 700;
   line-height: 56px;
   color: #FE5800;
+  font-family: 'Work Sans', sans-serif;
 }
 #hero p {
-  color: #FF7300;
+  color: #FF7932;
   margin: 30px 0 0 0;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Space Mono", monospace;
 }
 #hero p span {
   color: #0563bb;
@@ -93,4 +95,14 @@ right: 0;
 .orange {
   color: #af5e21;
   margin: 5px;
+}
+
+.cv-download {
+  color: #58b095;
+  background-color: rgb(211, 211, 211);
+}
+
+.cv-download:hover {
+  color: #2d9676;
+  background-color: #bbbbbb;
 }
