@@ -1,0 +1,19 @@
+{
+  "name": "hanialnahas.github.io",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanialnahas/hanialnahas.github.io"
+  },
+  "author": "Hani Alnahas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanialnahas/hanialnahas.github.io/issues"
+  },
+  "homepage": "https://hanialnahas.github.io/"
+}
