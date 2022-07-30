@@ -1,5 +1,6 @@
-import './bootstrap/css/bootstrap.min.css'
-import './bootstrap/js/bootstrap.bundle.min.js'
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
 import Hero from './Hero/Hero'
 import NavBar from './NavBar'
 import Divider from './Divider'
