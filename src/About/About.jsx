@@ -11,7 +11,7 @@ const About = (props) => {
                   <div className="col-md-6">
                       <div className="card">
                           <div className="d-flex justify-content-between p-2 px-3">
-                              <div className="d-flex flex-row align-items-center"> <img src="img/prof_2.png" width="50" className="rounded-circle" />
+                              <div className="d-flex flex-row align-items-center"> <img src="img/prof_2.png" width="50" className="rounded-circle" alt="Personal Image"/>
                                   <div className="d-flex flex-column ml-2 "> <span className="font-weight-bold">Hani Alnahas</span> <small className="text-primary">Software Engineer</small> </div>
                               </div>
                           </div>
