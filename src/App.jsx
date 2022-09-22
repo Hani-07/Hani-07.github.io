@@ -9,7 +9,7 @@ import Education from './Education'
 import Projects from './Projects'
 import './index.css'
 import Contact from './Contact'
-import Footer from './Footer'
+import Experience from './Experience'
 
 const App = (props) => {
     return (
@@ -19,11 +19,13 @@ const App = (props) => {
             <Divider />
             <About />
             <Divider />
+            <Experience />
+            <Divider />
             <Education />
+            <Divider />
             <Projects />
             <Divider />
             <Contact />
-            <Footer />
         </div>
     )
 }
