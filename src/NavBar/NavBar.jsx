@@ -2,7 +2,7 @@ import React from "react"
 
 const NavBar = (props) => {
     return (
-        <nav className="navbar sticky-top navbar-expand-md navbar-dark bg-dark h2">
+        <nav className="navbar sticky-top navbar-expand-md navbar-light bg-light h2">
             <div className="container-fluid">
 
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -12,7 +12,10 @@ const NavBar = (props) => {
             <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul className="navbar-nav justify-content-center">
                 <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#about_me">About Me</a>
+                <a className="nav-link" aria-current="page" href="#about">About Me</a>
+                </li>
+                <li className="nav-item">
+                <a className="nav-link" href="#experience">Excperience</a>
                 </li>
                 <li className="nav-item">
                 <a className="nav-link" href="#education">Education</a>
