@@ -30,8 +30,8 @@ const About = (props) => {
             <h1>Who Am I:</h1>
             <hr />
           <div className="p-2">
-            <p className="text-justify m-2">I am a computer science student at Jacobs University Bremen, currently in my second year.<br />
-                    I like creating software in general and back-end applications specifically.<br />
+            <p className="text-justify m-2">bachelor of science in computer science.<br />
+                    I like creating software in general and back-end applications specifically, with interest in machine learning and AI.<br />
                     I play guitar in my free time and enjoy watching Movies and TV series.<br />
                     feel free to reach out to me on any of my social media accounts.</p>
                 

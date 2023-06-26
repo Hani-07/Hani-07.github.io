@@ -166,3 +166,12 @@ right: 0;
 .alignright {
 	float: right;
 }
+
+.no-style-link {
+  text-decoration: none;
+  color: black;
+}
+
+.no-style-link:hover {
+  color:black;
+}

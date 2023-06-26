@@ -10,12 +10,12 @@ const Education = (props) => {
                 </div>
             <div className="card-body">
                 <h5 className="card-title alignleft">Jacobs University Bremen <p className="location">Bremen, Germany</p></h5>
-                <p className="card-text alignright smallDate">01/02/2021 -&#62; present</p>
+                <p className="card-text alignright smallDate">01/02/2021 -&#62; 09/06/2023</p>
                 <div style={{clear: "both"}}></div>
                 <p className="card-text">
                     <ul style={{"list-style-type": "square"}}>
-                        <li>Major in Computer Science</li>
-                        <li>Minor in Robotics and Intelligent Systems</li>
+                        <li>Computer Science Major, Robotics and Intelligent Systems Minor</li>
+                        <li>Bachelor Thesis on the topic of 'Deep Reinforcement Learning for Industrial Tasks Management: A2C and IMPALA Approach'</li>
                     </ul>
                 </p>
             </div>
